@@ -1,0 +1,9 @@
+/target
+certs/*.key
+certs/*.crt
+certs/*.pem
+.env
+*.log
+# checkpoint files (don't commit runtime artifacts like in lightscan-phantom lol)
+*.cp.json
+# gitignore
